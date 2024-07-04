@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Computational Thinking Games: The Code</title>
-</head>
-<body>
-    <script src="knock_out.js"></script>
-</body>
+    <script src="script-loader.js" defer></script>
+  </head>
+  <body>
+    <h1>Choose a Game to Play</h1>
+    <h2>Play</h2>
+    <button onclick="loadScript('knock_out.js')">Knock Out</button>
+    <hr />
+    <br />
+    <br />
+    In progress...
+    <button onclick="loadScript('going_to_boston.js')">Going to Boston</button>
+    <hr />
+    Upcoming...
+    <button>Sten, sax och påse</button>
+    <button>Fizzbuzz</button>
+    <button>Högt eller lågt</button>
+    <button>Söka efter likheter mellan ord</button>
+  </body>
 </html>
